@@ -5,10 +5,5 @@ slug: "watermeter"
 init: false
 arch:
   - amd64
-  - aarch64
-  - armv7
-  - armv8
-  - armv9
-
 ports:
   3000/tcp: 3000
