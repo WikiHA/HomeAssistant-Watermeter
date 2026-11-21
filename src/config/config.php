@@ -89,11 +89,4 @@ $config = array(
               'height' => '145',
             ),
         ),
-      'sourceImageEqualize' => true,
-      'digitDecolorization' => false,
-      'digitalDigitsInversion' => false,
-      'offsetValue' => '',
-      'postDecimalDigits' => 
-      array (
-      ),
 );
