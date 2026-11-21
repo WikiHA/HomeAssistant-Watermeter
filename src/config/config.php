@@ -8,7 +8,7 @@ $config = array(
     // Allow decreasing numbers?
     'allowDecreasing' => true,
     // Source image. Can either be a path to a file or an URL.
-    'sourceImage' => 'https://www.vykydal.changeip.net:7123/local/ocr/voda.jpg',
+    'sourceImage' => '',
     // Source Image Brightness & Contrast tuning
     'sourceImageRotate' => '0',
     'sourceImageCropSizeX' => '640',
