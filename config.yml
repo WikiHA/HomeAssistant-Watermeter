@@ -1,9 +1,13 @@
 name: "watermeter"
 description: "Reads analog water (+ electricity, gas, ...) meters and provides a web service that returns the read value as decimal. "
-version: "1.4.3.1"
+version: "1.4.3.2"
 slug: "watermeter"
 init: false
 arch:
   - amd64
 ports:
   3000/tcp: 3000
+map:
+  - type: addon_config
+    read_only: false
+    path: /usr/src/watermeter/src/config
