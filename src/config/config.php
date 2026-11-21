@@ -21,72 +21,80 @@ $config = array(
     // Each digital digit is identified by it's x and y coordinates and it's height and width
     'digitalDigits' =>
         array(
-            1 =>
-                array(
-                    'x' => '89',
-                    'y' => '12',
-                    'width' => '38',
-                    'height' => '58',
-                ),
-            2 =>
-                array(
-                    'x' => '139',
-                    'y' => '12',
-                    'width' => '38',
-                    'height' => '58',
-                ),
-            3 =>
-                array(
-                    'x' => '191',
-                    'y' => '12',
-                    'width' => '38',
-                    'height' => '58',
-                ),
-            4 =>
-                array(
-                    'x' => '249',
-                    'y' => '12',
-                    'width' => '38',
-                    'height' => '58',
-                ),
-            5 =>
-                array(
-                    'x' => '303',
-                    'y' => '12',
-                    'width' => '38',
-                    'height' => '58',
-                ),
+            1 => 
+            array (
+              'x' => '77',
+              'y' => '11',
+              'width' => '38',
+              'height' => '58',
+            ),
+            2 => 
+            array (
+              'x' => '133',
+              'y' => '11',
+              'width' => '38',
+              'height' => '58',
+            ),
+            3 => 
+            array (
+              'x' => '191',
+              'y' => '11',
+              'width' => '38',
+              'height' => '58',
+            ),
+            4 => 
+            array (
+              'x' => '249',
+              'y' => '11',
+              'width' => '38',
+              'height' => '58',
+            ),
+            5 => 
+            array (
+              'x' => '303',
+              'y' => '11',
+              'width' => '38',
+              'height' => '58',
+            ),
+          ),
         ),
     // Each analog gauge is identified by it's x and y coordinates and it's height and width
     'analogGauges' =>
         array(
-            1 =>
-                array(
-                    'x' => '422',
-                    'y' => '112',
-                    'width' => '142',
-                    'height' => '142',
-                ),
-            2 =>
-                array(
-                    'x' => '357',
-                    'y' => '270',
-                    'width' => '142',
-                    'height' => '142',
-                ),
-            3 =>
-                array(
-                    'x' => '200',
-                    'y' => '332',
-                    'width' => '142',
-                    'height' => '142',
-                ),
-            4 =>
-                array(
-                    'x' => '32',
-                    'y' => '263',
-                    'width' => '145',
-                    'height' => '145',
-                ),
+            1 => 
+            array (
+              'x' => '422',
+              'y' => '112',
+              'width' => '142',
+              'height' => '142',
+            ),
+            2 => 
+            array (
+              'x' => '357',
+              'y' => '270',
+              'width' => '142',
+              'height' => '142',
+            ),
+            3 => 
+            array (
+              'x' => '200',
+              'y' => '332',
+              'width' => '142',
+              'height' => '142',
+            ),
+            4 => 
+            array (
+              'x' => '32',
+              'y' => '263',
+              'width' => '145',
+              'height' => '145',
+            ),
         ),
+      'sourceImageEqualize' => true,
+      'digitDecolorization' => false,
+      'digitalDigitsInversion' => false,
+      'offsetValue' => '',
+      'postDecimalDigits' => 
+      array (
+      ),
 );
