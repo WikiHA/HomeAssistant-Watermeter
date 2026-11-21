@@ -56,7 +56,6 @@ $config = array(
               'width' => '38',
               'height' => '58',
             ),
-          ),
         ),
     // Each analog gauge is identified by it's x and y coordinates and it's height and width
     'analogGauges' =>
